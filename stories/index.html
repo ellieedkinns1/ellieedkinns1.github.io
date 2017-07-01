@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="layout">
+   {% for post in site.stories %}
+    <div class="layout__item layout__item--12-of-12 layout__item--4-of-12@m">
+       <a href="{{ post.url }}">
+            <div class="stories-thumbnail" style="background-image: url(/web-images/{{ post.thumbnail }}.jpg)">
+                <h3 class="stories-thumbnail__heading">{{ post.title }}</h3>
+            </div>
+        </a>
+    </div>
+    {% endfor %}
+</div>
+
+
+
+

@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="layout">
+    <div class="layout__item layout__item--12-of-12 layout__item--2-of-12@m">
+        <ul style="text-align:right" class="nav nav--vertical">           
+            <li><a href="/portfolio/Food/index.html">Food</a></li>
+            <li><a href="/portfolio/Travel/index.html">Travel</a></li>
+            <li><a href="/portfolio/Lifestyle/index.html">Lifestyle</a></li>
+            <li><a href="/portfolio/Interior/index.html">Interior</a></li>              
+        </ul>
+    </div>
+    <div class="layout__item layout__item--12-of-12 layout__item--10-of-12@m">
+        <div class="carousel-images">
+         {% for material in site.portfolio %}
+          {% if material.category == "interior" %}
+           <div><img src="/portfolio/Interior/{{ material.image }}.jpg" alt=""></div>
+           {% endif %}
+        {% endfor %}
+        </div>
+    </div>
+</div>  

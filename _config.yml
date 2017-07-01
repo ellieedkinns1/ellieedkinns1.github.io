@@ -1,0 +1,12 @@
+collections:
+    stories:
+        output: true
+    portfolio:
+        
+defaults:
+    - scope:
+        type: stories
+      values:
+        layout: blog-post
+        
+        

@@ -1,0 +1,22 @@
+<div class="layout">
+    <div class="layout__item layout__item layout__item--12-of-12 layout__item--6-of-12@m">
+        {% if include.image_one %}
+        <figure>
+            <img src="/web-images/{{ include.image_one }}.jpg" alt="">
+            {% if include.image_one_caption %}
+            <figcaption>{{ include.image_one_caption }}</figcaption>
+            {% endif %}
+        </figure>
+        {% endif %}
+    </div>
+    <div class="layout__item layout__item layout__item--12-of-12 layout__item--6-of-12@m">
+       {% if include.image_two %}
+        <figure>
+            <img src="/web-images/{{ include.image_two }}.jpg" alt="">
+            {% if include.image_two_caption %}
+            <figcaption>{{ include.image_two_caption }}</figcaption>
+            {% endif %}
+        </figure>
+        {% endif %}
+    </div>
+</div>

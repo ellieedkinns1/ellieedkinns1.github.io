@@ -1,0 +1,32 @@
+---
+layout: default
+---
+                   
+            
+
+    <div class="layout">
+         <div class="layout__item layout__item--12-of-12">
+            <a href="{{ site.data.travel.featured_location.url }}">
+                    <div class="stories-thumbnail stories-thumbnail--large" style="background-image: url(/web-images/{{ site.data.travel.featured_location.thumbnail }}.jpg)">
+                <h3 class="stories-thumbnail__heading">{{ site.data.travel.featured_location.title  }}</h3>
+                </div>
+            </a>
+         </div>
+          {% for location in site.data.travel.locations  %}
+          
+        <div class="layout__item layout__item--12-of-12 layout__item--4-of-12@m">
+            <a href="{{ location.url }}">
+                <div class="stories-thumbnail" style="background-image: url(/web-images/{{ location.thumbnail }}.jpg)">
+                <h3 class="stories-thumbnail__heading">{{ location.title }}</h3>
+                </div>
+            </a>
+        </div>
+          
+        
+          {% endfor %}
+
+     
+              
+              
+        </div>  
+ 

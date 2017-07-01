@@ -1,0 +1,31 @@
+
+featured_location:
+    thumbnail: "chiswickfirestation1_forweb"
+    title: "London"
+    url: 
+    
+    
+    
+
+locations:
+    - thumbnail: "vanvanmarket4"
+      title: "Barcelona"
+      url:   "Barcelona"
+    - thumbnail: "vanvanmarket4"
+      title: "Munich"
+      url:   "Hello"
+    - thumbnail: "holborngrind"
+      title: "London"
+      url:   "Hello"
+    - thumbnail: "arpenzance1"
+      title: "Cornwall"
+      url:   "Hello"
+    - thumbnail: "vanvanmarket4"
+      title: "Copenhagen"
+      url:   "Hello"
+    - thumbnail: "vanvanmarket4"
+      title: "Stockholm"
+      url:   "Hello"
+    
+
+        

@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family:'lato', 'Work sans', sans-serif;
+}
+
+.wrap {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
+    background-color: #FFFFFF;
+    padding-top: 15px;
+}
+
+.primary-heading {
+    color: #BBBABA;
+    font-family: 'Lato', 'Work sans', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+}
+.nav {
+    padding-bottom: 20px;
+    color: #BBBABA;
+    
+    &--horizontal {
+        
+        li {
+            display: inline-block;
+            margin-left: 10px;
+        }
+    }
+    
+    &--vertical {
+        
+        li {
+            display: block;
+            margin-left: 0;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+
+
+li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width:100%;
+   margin-top: 20px;
+}
+.stone-box {
+    background-color: #ececec;
+    color: #ffffff;
+    text-align: center;
+   
+    font-family: 'Lato', work sans, sans-serif;
+    font-size: 50px;
+    border: 2px solid white;
+    padding: 50px 0;
+
+}
+
+#stop {
+    font-size: 20px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*Travel page!*/
+
+
+.travel-header{
+    background-image: image("Website/travel/Travel-photos/Barcelona/IMG_0276.jpg");
+}
+.pagetitle {
+    color: #bbbaba;
+    text-align: center;
+    height: 120px;
+    font-family: 'Lato', work sans, sans-serif;
+    font-size: 50px;
+    border: 2px solid white;
+    
+
+}
+
+
+/*Portfolio page!*/
+
+
+.copy {
+    color: #BBBABA;
+}
+
+.storiesbox {
+    color: #BBBABA;
+    text-align: center;
+    height: 120px;
+    font-family: 'Lato', 'work sans', sans-serif;
+    font-size: 50px;
+}
+
+.barcelona {
+    color: #bbbaba;
+    text-align: center;
+    height: 120px;
+    font-family:'Lato', 'work sans', sans-serif;
+    font-size: 30px;
+    font-weight: 50;
+}
+
+.barcelonaimages {
+    
+    width: 50%;
+    height: 50%;
+        
+    }
+#crepe {
+    width: 100%;
+}
+
+.carousel-images img {
+    max-height: 800px;
+    padding-right: 10px;
+}
+
+/*about page!*/
+
+.about{
+    
+   &--text{
+                color: #9B9B9B;
+                height: 200px;
+                font-family: 'Lato', 'work sans', sans-serif;
+                font-size: 50px;
+                width: 300%;
+                display: block;
+                text-align: right;
+        
+            }
+            
+    &--img{
+        
+        max-width: 300%;
+        
+    }
+    
+}
+
+.stories-thumbnail{
+    display:table;
+    width: 100%;
+    height: 300px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40px;
+    margin-top: 100px;
+    
+    &__heading{
+        display:table-cell;
+        vertical-align: middle;
+        color: grey;
+        text-align: center;
+        background: rgba(255,255,255,.7);
+       
+    }
+
+    &--large { 
+        height: 500px;
+     }
+}
+
+.center {
+    text-align: center;
+}
