@@ -1,5 +1,21 @@
 ---
 ---
+// Settings
+@import '_settings.scss';
 
-@import '_temp.scss';
+// Base
+@import '_base.scss';
+
+// Layout
+@import '_margin.scss';
+@import '_padding.scss';
 @import '_grid.scss';
+
+// Typography
+@import '_typography.scss';
+
+// Visual
+@import '_background.scss';
+
+// Temporary
+@import '_temp.scss';
