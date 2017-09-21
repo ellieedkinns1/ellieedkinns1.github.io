@@ -12,16 +12,9 @@ The Vanvan market fell on the weekend we were visiting (which I was so excited f
 
 Head over here to view all there up and coming markets - http://www.vanvanmarket.com/
 
+![alt-text-1](vanvanmarket2 "title-1") ![alt-text-2](barcelona-1 "title-2")
 
-{% 
-include two-image-grid.html
 
-image_one="vanvanmarket2"
-image_one_caption=""
-
-image_two="barcelona-1"
-image_two_caption=""
-%}
 
 
 ![VanVan market](/web-images/vanvanmarket3.jpg)
