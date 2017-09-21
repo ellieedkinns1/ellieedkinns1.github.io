@@ -20,7 +20,7 @@ include two-image-grid.html
 
 image_one="vanvanmarket2" image_one_caption=""
 
-image_two="barcelona-1" image_two_caption="" 
+image_two="barcelona-1.jpg" image_two_caption="" 
 
 %}
 
