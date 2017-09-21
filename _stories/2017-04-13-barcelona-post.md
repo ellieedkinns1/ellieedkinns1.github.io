@@ -12,18 +12,17 @@ The Vanvan market fell on the weekend we were visiting (which I was so excited f
 
 Head over here to view all there up and coming markets - http://www.vanvanmarket.com/
 
-{% include two-image-grid.html
-
-image_one="icelandicpoppies" image_one_caption=""
-
-image_two="trelowarren5" image_two_caption="" %}
 
 
-{% include two-image-grid.html
+{% 
+
+include two-image-grid.html
 
 image_one="vanvanmarket2" image_one_caption=""
 
-image_two="barcelona-1" image_two_caption="" %}
+image_two="barcelona-1" image_two_caption="" 
+
+%}
 
 
 ![VanVan market](/web-images/vanvanmarket3.jpg)
