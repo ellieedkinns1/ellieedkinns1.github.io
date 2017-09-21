@@ -5,7 +5,6 @@ thumbnail: "vanvanmarket6"
 
 # Barcelona 
 
-![vanvan market](/web-images/vanvan1.jpg)
 
 A whole year later and I am finally writing my post about Barcelona... This has been a long time coming. Barcelona is the perfect city break if you are looking to go somewhere warm. We spent 4 days at the end of September exploring Barcelona on foot, the weather was perfect,the food was delecious and the architechture is phenominal the buildings are seeped in history and colour. 
 
